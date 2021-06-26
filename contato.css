@@ -1,0 +1,31 @@
+header {
+    background-color: #BBBBBB;
+}
+
+.caixa {
+    width: 1200px;
+    position: relative;
+    margin: auto;
+    font-weight: bold;
+}
+.navegacao {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+.navegacao ul li  {
+    display: inline-block;
+    
+    
+    
+}
+
+
+.navegacao a {
+    text-transform: uppercase;
+    color: black;
+
+}
+form  {
+    display: inline-block;
+}

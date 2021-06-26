@@ -1,0 +1,166 @@
+header {
+    background-color: #BBBBBB;
+    padding: 20px 0px;
+}
+.caixa{
+
+    width: 1200px;
+    position: relative;
+    margin:auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0px;
+
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bolder;
+    font-size: 22px;
+    text-decoration: none;
+    
+}
+nav a:hover {
+    color: coral;
+    text-decoration: underline;
+}
+.imagen-produtos {
+    width: 1200px;
+    margin: 0px auto;
+    padding: 50px 0px;
+}
+
+.imagen-produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    height: 400px;
+    padding: 30px 20px;
+    vertical-align: top;
+    margin: 0 1.5%;
+    box-sizing: border-box;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+}
+.imagen-produtos li:hover {
+    border-color: coral;
+}
+.imagen-produtos li:hover h2 {
+   font-size: 38px;
+}
+
+
+.imagen-produtos h2 {
+    font-size: 30px;
+    font-weight: bolder;
+}
+.produto-descricao{
+    font-size: 20px;
+}
+.produto-preco {
+    font-size: 22px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form label,form p {
+    display: block;
+    font-size: 20px;
+    margin: 15px 0px;
+}
+.input-padrao{
+    display: block;
+    padding: 10px 10px;
+    margin: 0 0 20px;
+    width: 30%;
+}
+#caixa-selecao{
+    width: 100px;
+    font-size: 15px;
+}
+#botao-confirma {
+    width: 150px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    background-color: orange;
+    padding: 10px 0px;
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: 1s all;
+}
+#botao-confirma:hover {
+    background-color: rgb(53, 87, 3);
+    transform: rotate(360deg) scale(1.2);
+}
+
+footer {
+    height: 280px;
+    text-align: center;
+    background-image: url(imagens/produtos/bg.jpg);
+    padding: 15px 0px;
+  
+}
+
+footer p {
+    color: aliceblue;
+    font-size: 13x;
+    margin-top: 20px;
+}
+table {
+    margin: 0px 0px 40px
+}
+thead{
+    background-color: #BBBBBB;
+    font-weight: bold;
+
+}
+
+td, th{
+    border: 1px solid;
+    padding: 20px 40px;
+}
+.banner {
+    width: 100%;
+}
+
+.titulo-principal {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 1em;
+    clear: left;
+
+}
+
+.principal p {
+    margin-bottom: 1em;
+
+}
+.principal strong {
+    font-weight: bold;
+}
+.principal em {
+    font-style: italic;
+}
+.utensilios {
+    width: 120px;
+    float: left;
+    margin: 0 0 20px;
+}
+.imagen-beneficios {
+    width: 60%;
+}
