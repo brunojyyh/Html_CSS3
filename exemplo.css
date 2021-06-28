@@ -1,0 +1,13 @@
+/* seletores multiplos */
+main > p {} /*usando o sinal de maior ele seleciona todas as tags(no caso desse exemplo a tag p) que sejam filhos diretos da tag main */
+
+img + p{} /*usando o sinal de + é possivel selecionar um elemento que venha em seguida de uma tag especifica, no caso desse exemplo, estou dizendo para selecionar o primeiro paragrafo que venha depois de uma imagem*/
+
+img ~ p {} /* usando o sinal de ~ é possivel selecionar todos os elementos que venham depois de uma tag especifica, no caso desse exemplo, estou selecionando todos os paragrafos que venham depois de uma imagem */
+
+.principal p:not(#missao) {} /* usado o "p:not()" é possivel excluir determinado elemento da modificação, no caso desse exemplo estou dizendo para selecionar todos os paragrafos, menos o paragrafo que tem o id missao*/
+
+p {
+    box-shadow: 10px 10px 5px 0 black;} /* as propriedades que precisam ser preenchidos são: eixo X, Y, blur/espalhamento(serve pra nao deixar a sombra quadrada no final), e a ultima propriedade é a intensidade da borda*/
+p {
+    text-shadow: 2px 2px 5px 0px red;} /* as propriedades que precisam ser preenchidos são: eixo X, Y, Blur/espalhamento(serve pra nao deixar a sombra quadrada no final), e a ultima propriedade é a intensidade da borda*/

@@ -75,10 +75,6 @@ nav a:hover {
     font-weight: bolder;
     margin-top: 10px;
 }
-main{
-    
-    
-}
 
 form label,form p {
     display: block;
@@ -161,6 +157,15 @@ td, th{
     clear: left;
 
 }
+.titulo-principal:first-letter{
+    font-weight: bolder;
+}
+.titulo-principal::before{
+    content: '[ ';
+}
+.titulo-principal::after{
+    content: ' ]';
+}
 
 .principal p {
     margin-bottom: 1em;
@@ -206,6 +211,7 @@ td, th{
 .imagen-beneficios {
     width: 60%;
     margin: 0 auto;
+    box-shadow: 10px 10px 8px 0 black;
 
 }
 .lista-beneficios {
@@ -218,13 +224,38 @@ td, th{
 .itens:first-child {
     font-weight: bold;
 }
+.itens:before{
+    content: "★";
+}
 .video {
     width: 560px;
     margin: 2em auto;
+}
+.video iframe {
+    width: 560px;
+    height: 315px;
 }
 #missao {
     text-align: center;
 }
 #paragrafo-missao{
     margin: 0 0 20px 140px;
+}
+
+@media screen and (max-width: 375px) {
+    .caixa, .principal, .conteudo-mapa, .conteudo-beneficio {
+        width: auto;
+    }
+    .video iframe {
+        width: 375px ;
+    }
+    h1 {
+        text-align: center;
+    }
+    nav {
+        position: static;
+    }
+    .lista-beneficios, .imagen-beneficios{
+     width: 100%;
+    }
 }
